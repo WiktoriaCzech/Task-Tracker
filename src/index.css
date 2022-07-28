@@ -9,7 +9,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #495C83;
 }
+
 .container {
     max-width: 500px;
     margin: 30px auto;
@@ -18,17 +20,20 @@ body {
     border: 1px solid steelblue;
     padding: 30px;
     border-radius: 5px;
+    background: #7A86B6;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .btn {
     display: inline-block;
-    background: #6e603e;
-    color: #fff;
+    background: #C8B6E2;
+    color: #000;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -36,41 +41,75 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-size: 15px;
+    font-weight: bold;
     font-family: inherit;
 }
+
 .btn:focus {
     outline: none;
 }
+
 .btn:active {
     transform: scale(0.98);
 }
+
 .btn-block {
     display: block;
     width: 100%;
 }
+
 .task {
-    background: #f4f4f4;
+    background: #A8A4CE;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
+
 .task.reminder {
-    border-left: 5px solid #746743;
+    border-radius: 5px;
+    border-left: 5px solid #C8B6E2;
+    background: #A8A4CE;
 }
+
+.task-details {
+    border-radius: 5px;
+    background: #A8A4CE;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+
+}
+
+.single-task {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.return-button {
+    width: 10%;
+
+}
+
 .task h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .add-form {
     margin-bottom: 40px;
 }
+
 .form-control {
     margin: 20px 0;
+    font-weight: 600;
 }
+
 .form-control label {
     display: block;
 }
+
 .form-control input {
     width: 100%;
     height: 40px;
@@ -78,18 +117,30 @@ body {
     padding: 3px 7px;
     font-size: 17px;
 }
+
 .form-control-check {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .form-control-check label {
     flex: 1;
 }
+
 .form-control-check input {
     flex: 2;
     height: 20px;
 }
+
+.details {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+
+}
+
 footer {
     margin-top: 30px;
     text-align: center;
